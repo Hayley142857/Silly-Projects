@@ -1,0 +1,25 @@
+
+
+
+public void loop() {
+
+telemetry.addData("Left Stick x", gamepad1.left_stick_x);
+telemetry.addData("Left Stick y", gamepad1.left_stick_y);
+telemetry.addData("Right Stick x", gamepad1.right_stick_x);
+telemetry.addData("Right Stick y", gamepad1.right_stick_y);
+telemetry.addData("A button", gamepad1.a);
+telemetry.addData("B button", gamepad1.b);
+telemetry.addData("X button", gamepad1.x);
+telemetry.addData("Y button", gamepad1.y);
+telemetry.addData("Left Trigger", gamepad1.left_trigger);
+telemetry.addData("Right Trigger", gamepad1.right_trigger);
+telemetry.addData("Left Bumper", gamepad1.left_bumper);
+telemetry.addData("Right Bumper", gamepad1.right_bumper);
+
+}
+
+
+
+
+
+
